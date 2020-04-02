@@ -1,0 +1,118 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+/* -----google font----- */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300|Roboto&display=swap');
+
+// 定義預設顏色
+$primary: #044e9e;
+$info: #1bb8a3;
+
+// -----default setting-----
+body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+//header
+header {
+  position: relative;
+  margin-top: 58px;
+  background: #333333;
+  .kv-bg {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    filter: brightness(40%);
+    right: 0;
+    left: 0;
+    video {
+      width: 100%;
+      height: calc(100vh - 58px);
+      object-fit: cover;
+    }
+  }
+  .kv-text {
+    position: relative;
+    height: calc(100vh - 58px);
+    color: #ffffff;
+    z-index: 9;
+    > .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+/* section */
+section {
+  padding: 4rem 0;
+}
+
+/* intro */
+.intro {
+  background-size: cover;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
+    url(../images/bg1.jpg) center fixed no-repeat;
+  background-size: cover;
+}
+
+.card-intro {
+  background: rgba(255, 255, 255, 0.9);
+  transition: 0.5s;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-intro:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.card-intro img {
+  max-width: 80px;
+}
+
+.card-intro p {
+  margin: 20px 0;
+}
+
+/* album */
+.row-album .col-album {
+  padding: 0;
+  height: 300px;
+  overflow: hidden;
+}
+
+.row-album .col-album img {
+  width: 105%;
+  height: 105%;
+  object-fit: cover;
+  margin-top: -5px;
+  margin-left: -5px;
+  transition: 1s;
+  filter: brightness(80%);
+}
+
+.row-album .col-album:hover img {
+  transform: translate(-4%, -3%);
+  width: 110%;
+  height: 110%;
+  filter: brightness(100%);
+}
+
+@media (min-width: 768px) {
+  .row-album .col-album {
+    height: 250px;
+  }
+}
+
+/* buy */
+.bandimg {
+  height: 330px;
+  width: 200px;
+  margin: 0 auto;
+}

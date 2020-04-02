@@ -1,0 +1,74 @@
+[
+  {
+    "name": "紅色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "-650px",
+    "price": 500
+  },
+  {
+    "name": "黑色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "-975px",
+    "price": 500
+  },
+  {
+    "name": "午夜藍",
+    "bgPositionX": "-430px",
+    "bgPositionY": "-975px",
+    "price": 500
+  },
+  {
+    "name": "白色",
+    "bgPositionX": "-430px",
+    "bgPositionY": "-650px",
+    "price": 500
+  },
+  {
+    "name": "橘色",
+    "bgPositionX": "-10px",
+    "bgPositionY": "-650px",
+    "price": 500
+  },
+  {
+    "name": "黃色",
+    "bgPositionX": "-10px",
+    "bgPositionY": "-975px",
+    "price": 500
+  },
+  {
+    "name": "湖水綠",
+    "bgPositionX": "-10px",
+    "bgPositionY": "-325px",
+    "price": 600
+  },
+  {
+    "name": "紫色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "-325px",
+    "price": 600
+  },
+  {
+    "name": "粉色",
+    "bgPositionX": "-430px",
+    "bgPositionY": "-325px",
+    "price": 500
+  },
+  {
+    "name": "天藍色",
+    "bgPositionX": "-10px",
+    "bgPositionY": "0px",
+    "price": 600
+  },
+  {
+    "name": "灰色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "0px",
+    "price": 500
+  },
+  {
+    "name": "草綠色",
+    "bgPositionX": "-430px",
+    "bgPositionY": "0px",
+    "price": 600
+  }
+]
