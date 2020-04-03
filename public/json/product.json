@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "name": "紅色",
+    "name": "Fitness Band-紅色",
     "bgPositionX": "-220px",
     "bgPositionY": "-650px",
     "amt": 500,
-    "qty": 10
+    "qty": 2
   },
   {
     "id": 2,
-    "name": "黑色",
+    "name": "Fitness Band-黑色",
     "bgPositionX": "-220px",
     "bgPositionY": "-975px",
     "amt": 500,
-    "qty": 22
+    "qty": 8
   },
   {
     "id": 3,
-    "name": "午夜藍",
+    "name": "Fitness Band-午夜藍",
     "bgPositionX": "-430px",
     "bgPositionY": "-975px",
     "amt": 650,
-    "qty": 30
+    "qty": 24
   },
   {
     "id": 4,
-    "name": "白色",
+    "name": "Fitness Band-白色",
     "bgPositionX": "-430px",
     "bgPositionY": "-650px",
     "amt": 650,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "橘色",
+    "name": "Fitness Band-橘色",
     "bgPositionX": "-10px",
     "bgPositionY": "-650px",
     "amt": 500,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "name": "黃色",
+    "name": "Fitness Band-黃色",
     "bgPositionX": "-10px",
     "bgPositionY": "-975px",
     "amt": 500,
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "湖水綠",
+    "name": "Fitness Band-湖水綠",
     "bgPositionX": "-10px",
     "bgPositionY": "-325px",
     "amt": 650,
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "name": "紫色",
+    "name": "Fitness Band-紫色",
     "bgPositionX": "-220px",
     "bgPositionY": "-325px",
     "amt": 500,
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "name": "粉色",
+    "name": "Fitness Band-粉色",
     "bgPositionX": "-430px",
     "bgPositionY": "-325px",
     "amt": 650,
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "name": "天藍色",
+    "name": "Fitness Band-天藍色",
     "bgPositionX": "-10px",
     "bgPositionY": "0px",
     "amt": 650,
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "name": "灰色",
+    "name": "Fitness Band-灰色",
     "bgPositionX": "-220px",
     "bgPositionY": "0px",
     "amt": 500,
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "name": "草綠色",
+    "name": "Fitness Band-草綠色",
     "bgPositionX": "-430px",
     "bgPositionY": "0px",
     "amt": 650,

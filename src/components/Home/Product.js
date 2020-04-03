@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { Container, Row, Col, Button, Collapse } from 'react-bootstrap'
 import ProductItem from './ProductItem'
-import { FaChevronDown } from 'react-icons/fa'
 
 function Product() {
   const [product, setProduct] = useState([]) //商品資料
-  const [cart, setCart] = useState([]) //購物車
   const [open, setOpen] = useState(false) //隱藏顯示商品資訊
 
   //抓取JSON資料
@@ -58,7 +56,6 @@ function Product() {
                   aria-controls="example-collapse-text"
                   aria-expanded={open}
                 >
-                  <FaChevronDown className="mr-1" />
                   更多顏色
                 </Button>
               ) : (

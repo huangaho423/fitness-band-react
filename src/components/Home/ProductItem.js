@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Card,
   Row,
@@ -9,21 +9,37 @@ import {
 } from 'react-bootstrap'
 import { FaShoppingCart, FaPlus, FaMinus } from 'react-icons/fa'
 import ProductImg from '../../images/band-sprite.jpg'
-// 導入高階元件的方法
+import Swal from 'sweetalert2'
+//redux導入高階元件的方法
 import { connect } from 'react-redux'
 // 部份綁定action creators
-// import { bindActionCreators } from 'redux'
 import * as actionCreators from '../../actions/index'
 
 function ProductItem(props) {
   //設定購物車狀態
   const [cartChk, setCartChk] = useState(0)
+  //購物車抓取Local
+  const [cartData, setCartData] = useState([])
   //尋找購物車是否有該品項商品ID
   const findProductIndex = props.total.map(v => v.id).indexOf(props.item.id)
 
+  const handleAddToCart = () => {
+    //寫入local storage
+    localStorage.setItem('cart', JSON.stringify(props.total))
+    Swal.fire({
+      title: '已更新購物車',
+      icon: 'success',
+      showConfirmButton: false,
+      timer: 1500,
+    }).then(() => {
+      window.location.reload()
+    })
+    return
+  }
+
   useEffect(() => {
-    console.log(props.total)
-  }, [cartChk])
+    setCartData(JSON.parse(localStorage.getItem('cart')))
+  }, [])
   return (
     <>
       <Col lg={4} className="mb-4">
@@ -48,8 +64,17 @@ function ProductItem(props) {
                       variant="outline-secondary"
                       className="btn-count"
                       onClick={() => {
-                        props.minusValue(props.item.id, 1, props.item.amt)
-                        setCartChk(cartChk - 1)
+                        //減少數量
+                        props.minusValue(
+                          props.item.id,
+                          1,
+                          props.item.amt,
+                          props.item.qty,
+                          props.item.name,
+                          props.item.bgPositionX,
+                          props.item.bgPositionY
+                        )
+                        return setCartChk(cartChk - 1) //為了偵測物件變化
                       }}
                     >
                       <FaMinus className="mr-1" />
@@ -59,6 +84,7 @@ function ProductItem(props) {
                     type="text"
                     className="form-control-plaintext border-secondary bg-white text-center text-secondary input-number"
                     value={
+                      //顯示目前數量
                       findProductIndex >= 0
                         ? props.total[findProductIndex].value
                         : 0
@@ -71,8 +97,17 @@ function ProductItem(props) {
                       variant="outline-secondary"
                       className="btn-count"
                       onClick={() => {
-                        props.addValue(props.item.id, 1, props.item.amt)
-                        setCartChk(cartChk + 1)
+                        //增加數量
+                        props.addValue(
+                          props.item.id,
+                          1,
+                          props.item.amt,
+                          props.item.qty,
+                          props.item.name,
+                          props.item.bgPositionX,
+                          props.item.bgPositionY
+                        )
+                        return setCartChk(cartChk + 1) //為了偵測物件變化
                       }}
                     >
                       <FaPlus className="mr-1" />
@@ -85,6 +120,8 @@ function ProductItem(props) {
                   type="button"
                   variant="primary"
                   className="btn-block btn-buy"
+                  onClick={() => handleAddToCart()}
+                  disabled={!props.total[findProductIndex]}
                 >
                   <FaShoppingCart className="mr-1" />
                   <span>購買</span>
