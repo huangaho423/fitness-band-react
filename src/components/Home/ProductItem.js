@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import {
   Card,
   Row,
@@ -9,16 +9,19 @@ import {
 } from 'react-bootstrap'
 import { FaShoppingCart, FaPlus, FaMinus } from 'react-icons/fa'
 import ProductImg from '../../images/band-sprite.jpg'
+// 導入高階元件的方法
+import { connect } from 'react-redux'
+// 部份綁定action creators
+// import { bindActionCreators } from 'redux'
+import * as actionCreators from '../../actions/index'
 
 function ProductItem(props) {
-  const cartArr = []
+  //設定購物車狀態
+  const [cart, setCart] = useState([])
 
-  //減少數量
-  const minusCart = () => {}
-  //增加數量
-  const addCart = () => {}
-
-  useEffect(() => {}, [])
+  useEffect(() => {
+    setCart(props.total)
+  }, [])
   return (
     <>
       <Col lg={4} className="mb-4">
@@ -42,7 +45,9 @@ function ProductItem(props) {
                       type="button"
                       variant="outline-secondary"
                       className="btn-count"
-                      onClick={() => minusCart()}
+                      onClick={() => {
+                        props.minusValue(props.item.id, 1, props.item.amt)
+                      }}
                     >
                       <FaMinus className="mr-1" />
                     </Button>
@@ -50,7 +55,7 @@ function ProductItem(props) {
                   <FormControl
                     type="text"
                     className="form-control-plaintext border-secondary bg-white text-center text-secondary input-number"
-                    value="0"
+                    value={props.cart}
                     readOnly
                   />
                   <InputGroup.Prepend>
@@ -58,7 +63,9 @@ function ProductItem(props) {
                       type="button"
                       variant="outline-secondary"
                       className="btn-count"
-                      onClick={() => addCart()}
+                      onClick={() => {
+                        props.addValue(props.item.id, 1, props.item.amt)
+                      }}
                     >
                       <FaPlus className="mr-1" />
                     </Button>
@@ -83,4 +90,9 @@ function ProductItem(props) {
   )
 }
 
-export default ProductItem
+// 告訴redux該怎麼對應它的store中的state到這個元件的props的哪裡
+const mapStateToProps = store => {
+  return { total: store.total }
+}
+
+export default connect(mapStateToProps, actionCreators)(ProductItem)
