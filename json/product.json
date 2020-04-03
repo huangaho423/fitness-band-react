@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Fitness Band-紅色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "-650px",
+    "amt": 500,
+    "qty": 2
+  },
+  {
+    "id": 2,
+    "name": "Fitness Band-黑色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "-975px",
+    "amt": 500,
+    "qty": 8
+  },
+  {
+    "id": 3,
+    "name": "Fitness Band-午夜藍",
+    "bgPositionX": "-430px",
+    "bgPositionY": "-975px",
+    "amt": 650,
+    "qty": 24
+  },
+  {
+    "id": 4,
+    "name": "Fitness Band-白色",
+    "bgPositionX": "-430px",
+    "bgPositionY": "-650px",
+    "amt": 650,
+    "qty": 15
+  },
+  {
+    "id": 5,
+    "name": "Fitness Band-橘色",
+    "bgPositionX": "-10px",
+    "bgPositionY": "-650px",
+    "amt": 500,
+    "qty": 9
+  },
+  {
+    "id": 6,
+    "name": "Fitness Band-黃色",
+    "bgPositionX": "-10px",
+    "bgPositionY": "-975px",
+    "amt": 500,
+    "qty": 25
+  },
+  {
+    "id": 7,
+    "name": "Fitness Band-湖水綠",
+    "bgPositionX": "-10px",
+    "bgPositionY": "-325px",
+    "amt": 650,
+    "qty": 30
+  },
+  {
+    "id": 8,
+    "name": "Fitness Band-紫色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "-325px",
+    "amt": 500,
+    "qty": 11
+  },
+  {
+    "id": 9,
+    "name": "Fitness Band-粉色",
+    "bgPositionX": "-430px",
+    "bgPositionY": "-325px",
+    "amt": 650,
+    "qty": 2
+  },
+  {
+    "id": 10,
+    "name": "Fitness Band-天藍色",
+    "bgPositionX": "-10px",
+    "bgPositionY": "0px",
+    "amt": 650,
+    "qty": 5
+  },
+  {
+    "id": 11,
+    "name": "Fitness Band-灰色",
+    "bgPositionX": "-220px",
+    "bgPositionY": "0px",
+    "amt": 500,
+    "qty": 42
+  },
+  {
+    "id": 12,
+    "name": "Fitness Band-草綠色",
+    "bgPositionX": "-430px",
+    "bgPositionY": "0px",
+    "amt": 650,
+    "qty": 13
+  }
+]

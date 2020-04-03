@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/fitness-band/static/css/main.2e82e37e.chunk.css",
+    "main.js": "/fitness-band/static/js/main.2b3c8191.chunk.js",
+    "main.js.map": "/fitness-band/static/js/main.2b3c8191.chunk.js.map",
+    "runtime-main.js": "/fitness-band/static/js/runtime-main.344f1300.js",
+    "runtime-main.js.map": "/fitness-band/static/js/runtime-main.344f1300.js.map",
+    "static/js/2.ecfa9846.chunk.js": "/fitness-band/static/js/2.ecfa9846.chunk.js",
+    "static/js/2.ecfa9846.chunk.js.map": "/fitness-band/static/js/2.ecfa9846.chunk.js.map",
+    "index.html": "/fitness-band/index.html",
+    "precache-manifest.ad0264fd9eb0d7272fd75ed32c98d1c0.js": "/fitness-band/precache-manifest.ad0264fd9eb0d7272fd75ed32c98d1c0.js",
+    "service-worker.js": "/fitness-band/service-worker.js",
+    "static/css/main.2e82e37e.chunk.css.map": "/fitness-band/static/css/main.2e82e37e.chunk.css.map",
+    "static/js/2.ecfa9846.chunk.js.LICENSE.txt": "/fitness-band/static/js/2.ecfa9846.chunk.js.LICENSE.txt",
+    "static/media/album01.jpg": "/fitness-band/static/media/album01.0369dc3c.jpg",
+    "static/media/album02.jpg": "/fitness-band/static/media/album02.245fcf40.jpg",
+    "static/media/album03.jpg": "/fitness-band/static/media/album03.ea33610b.jpg",
+    "static/media/album05.jpg": "/fitness-band/static/media/album05.0d009b96.jpg",
+    "static/media/album06.jpg": "/fitness-band/static/media/album06.bfb8ad23.jpg",
+    "static/media/album07.jpg": "/fitness-band/static/media/album07.417f9df9.jpg",
+    "static/media/album08.jpg": "/fitness-band/static/media/album08.51588ddc.jpg",
+    "static/media/album09.jpg": "/fitness-band/static/media/album09.b959de9a.jpg",
+    "static/media/band-sprite.jpg": "/fitness-band/static/media/band-sprite.a8b41562.jpg",
+    "static/media/index.scss": "/fitness-band/static/media/bg1.fc87d415.jpg",
+    "static/media/clock.png": "/fitness-band/static/media/clock.b6d853c5.png",
+    "static/media/heartbeat.png": "/fitness-band/static/media/heartbeat.d2788c28.png",
+    "static/media/video.mp4": "/fitness-band/static/media/video.765f9090.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.344f1300.js",
+    "static/js/2.ecfa9846.chunk.js",
+    "static/css/main.2e82e37e.chunk.css",
+    "static/js/main.2b3c8191.chunk.js"
+  ]
+}
