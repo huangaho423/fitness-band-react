@@ -8,7 +8,7 @@ function Product() {
 
   //抓取JSON資料
   async function getDataJSON() {
-    const request = new Request('/json/product.json', {
+    const request = new Request(process.env.PUBLIC_URL + '/json/product.json', {
       method: 'GET',
       headers: new Headers({
         Accept: 'application/json',
