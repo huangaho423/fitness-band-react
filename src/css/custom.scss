@@ -1,23 +1,24 @@
-@import '~bootstrap/scss/bootstrap.scss';
-
-/* -----google font----- */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300|Roboto&display=swap');
-
 // 定義預設顏色
 $primary: #044e9e;
 $info: #1bb8a3;
+$font-family-base: 'Roboto', 'Noto Sans TC', sans-serif;
 
-// -----default setting-----
-body {
-  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
-}
+//bootstrap scss
+@import '~bootstrap/scss/bootstrap.scss';
 
+//google font
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300|Roboto&display=swap');
+
+//default
 .text-shadow {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
-
+//section
+section {
+  padding: 4rem 0;
+}
 //header
-header {
+.kv {
   position: relative;
   margin-top: 58px;
   background: #333333;
@@ -47,70 +48,62 @@ header {
     }
   }
 }
-
-/* section */
-section {
-  padding: 4rem 0;
-}
-
-/* intro */
+//intro
 .intro {
   background-size: cover;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
     url(../images/bg1.jpg) center fixed no-repeat;
   background-size: cover;
+  .card-intro {
+    background: rgba(255, 255, 255, 0.9);
+    transition: 0.5s;
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.15);
+    &:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    }
+    img {
+      max-width: 80px;
+    }
+    p {
+      margin: 20px 0;
+    }
+  }
 }
 
-.card-intro {
-  background: rgba(255, 255, 255, 0.9);
-  transition: 0.5s;
-  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.15);
-}
-
-.card-intro:hover {
-  transform: translateY(-0.5rem);
-  box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.3);
-}
-
-.card-intro img {
-  max-width: 80px;
-}
-
-.card-intro p {
-  margin: 20px 0;
-}
-
-/* album */
-.row-album .col-album {
-  padding: 0;
-  height: 300px;
-  overflow: hidden;
-}
-
-.row-album .col-album img {
-  width: 105%;
-  height: 105%;
-  object-fit: cover;
-  margin-top: -5px;
-  margin-left: -5px;
-  transition: 1s;
-  filter: brightness(80%);
-}
-
-.row-album .col-album:hover img {
-  transform: translate(-4%, -3%);
-  width: 110%;
-  height: 110%;
-  filter: brightness(100%);
+//gallery
+.gallery {
+  .row-gallery {
+    .col-gallery {
+      padding: 0;
+      height: 300px;
+      overflow: hidden;
+      &:hover img {
+        transform: translate(-4%, -3%);
+        width: 110%;
+        height: 110%;
+        filter: brightness(100%);
+      }
+      img {
+        width: 105%;
+        height: 105%;
+        object-fit: cover;
+        margin-top: -5px;
+        margin-left: -5px;
+        transition: 1s;
+        filter: brightness(80%);
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) {
-  .row-album .col-album {
+  .row-gallery .col-gallery {
     height: 250px;
   }
 }
 
-/* buy */
+//product
 .bandimg {
   height: 330px;
   width: 200px;
