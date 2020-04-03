@@ -1,74 +1,98 @@
 [
   {
+    "id": 1,
     "name": "紅色",
     "bgPositionX": "-220px",
     "bgPositionY": "-650px",
-    "price": 500
+    "amt": 500,
+    "qty": 10
   },
   {
+    "id": 2,
     "name": "黑色",
     "bgPositionX": "-220px",
     "bgPositionY": "-975px",
-    "price": 500
+    "amt": 500,
+    "qty": 22
   },
   {
+    "id": 3,
     "name": "午夜藍",
     "bgPositionX": "-430px",
     "bgPositionY": "-975px",
-    "price": 500
+    "amt": 650,
+    "qty": 30
   },
   {
+    "id": 4,
     "name": "白色",
     "bgPositionX": "-430px",
     "bgPositionY": "-650px",
-    "price": 500
+    "amt": 650,
+    "qty": 15
   },
   {
+    "id": 5,
     "name": "橘色",
     "bgPositionX": "-10px",
     "bgPositionY": "-650px",
-    "price": 500
+    "amt": 500,
+    "qty": 9
   },
   {
+    "id": 6,
     "name": "黃色",
     "bgPositionX": "-10px",
     "bgPositionY": "-975px",
-    "price": 500
+    "amt": 500,
+    "qty": 25
   },
   {
+    "id": 7,
     "name": "湖水綠",
     "bgPositionX": "-10px",
     "bgPositionY": "-325px",
-    "price": 600
+    "amt": 650,
+    "qty": 30
   },
   {
+    "id": 8,
     "name": "紫色",
     "bgPositionX": "-220px",
     "bgPositionY": "-325px",
-    "price": 600
+    "amt": 500,
+    "qty": 11
   },
   {
+    "id": 9,
     "name": "粉色",
     "bgPositionX": "-430px",
     "bgPositionY": "-325px",
-    "price": 500
+    "amt": 650,
+    "qty": 2
   },
   {
+    "id": 10,
     "name": "天藍色",
     "bgPositionX": "-10px",
     "bgPositionY": "0px",
-    "price": 600
+    "amt": 650,
+    "qty": 5
   },
   {
+    "id": 11,
     "name": "灰色",
     "bgPositionX": "-220px",
     "bgPositionY": "0px",
-    "price": 500
+    "amt": 500,
+    "qty": 42
   },
   {
+    "id": 12,
     "name": "草綠色",
     "bgPositionX": "-430px",
     "bgPositionY": "0px",
-    "price": 600
+    "amt": 650,
+    "qty": 13
   }
 ]

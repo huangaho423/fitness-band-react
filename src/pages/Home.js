@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Kv from '../components/Home/Kv'
 import Intro from '../components/Home/Intro'
 import Gallery from '../components/Home/Gallery'

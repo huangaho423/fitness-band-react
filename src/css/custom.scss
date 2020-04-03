@@ -20,7 +20,7 @@ section {
 //header
 .kv {
   position: relative;
-  margin-top: 58px;
+  margin-top: 56px;
   background: #333333;
   .kv-bg {
     position: absolute;
@@ -31,13 +31,13 @@ section {
     left: 0;
     video {
       width: 100%;
-      height: calc(100vh - 58px);
+      height: calc(100vh - 56px);
       object-fit: cover;
     }
   }
   .kv-text {
     position: relative;
-    height: calc(100vh - 58px);
+    height: calc(100vh - 56px);
     color: #ffffff;
     z-index: 9;
     > .container {
@@ -45,6 +45,15 @@ section {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+  }
+}
+@media (min-width: 768px) {
+  .kv {
+    margin-top: 70px;
+    .kv-text,
+    .kv-bg video {
+      height: calc(100vh - 70px);
     }
   }
 }
@@ -94,12 +103,11 @@ section {
         filter: brightness(80%);
       }
     }
-  }
-}
-
-@media (min-width: 768px) {
-  .row-gallery .col-gallery {
-    height: 250px;
+    @media (min-width: 768px) {
+      .col-gallery {
+        height: 250px;
+      }
+    }
   }
 }
 

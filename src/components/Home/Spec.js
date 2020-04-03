@@ -14,7 +14,7 @@ function Spec() {
             <Table bordered>
               <thead className="thead-light text-center">
                 <tr>
-                  <th colspan="2">尺寸</th>
+                  <th colSpan="2">尺寸</th>
                 </tr>
               </thead>
               <tbody>
@@ -33,7 +33,7 @@ function Spec() {
               </tbody>
               <thead className="thead-light text-center">
                 <tr>
-                  <th colspan="2">規格</th>
+                  <th colSpan="2">規格</th>
                 </tr>
               </thead>
               <tbody>

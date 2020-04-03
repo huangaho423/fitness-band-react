@@ -86,6 +86,8 @@ function Footer() {
               <small className="d-block mb-3 text-muted">© 2020</small>
               <small className="d-block mb-3 text-muted">
                 本頁面僅供作品展示
+                <br />
+                不提供其他用途使用
               </small>
             </Col>
           </Row>

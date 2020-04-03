@@ -12,7 +12,7 @@ function Kv() {
             <p>觸控大螢幕 100公尺防水</p>
             <p>
               <a
-                className="btn btn-info btn-lg mr-1"
+                className="btn btn-info btn-lg mr-3"
                 href="#intro"
                 role="button"
               >
