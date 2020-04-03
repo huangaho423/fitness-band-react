@@ -17,11 +17,13 @@ import * as actionCreators from '../../actions/index'
 
 function ProductItem(props) {
   //設定購物車狀態
-  const [cart, setCart] = useState([])
+  const [cartChk, setCartChk] = useState(0)
+  //尋找購物車是否有該品項商品ID
+  const findProductIndex = props.total.map(v => v.id).indexOf(props.item.id)
 
   useEffect(() => {
-    setCart(props.total)
-  }, [])
+    console.log(props.total)
+  }, [cartChk])
   return (
     <>
       <Col lg={4} className="mb-4">
@@ -47,6 +49,7 @@ function ProductItem(props) {
                       className="btn-count"
                       onClick={() => {
                         props.minusValue(props.item.id, 1, props.item.amt)
+                        setCartChk(cartChk - 1)
                       }}
                     >
                       <FaMinus className="mr-1" />
@@ -55,7 +58,11 @@ function ProductItem(props) {
                   <FormControl
                     type="text"
                     className="form-control-plaintext border-secondary bg-white text-center text-secondary input-number"
-                    value={props.cart}
+                    value={
+                      findProductIndex >= 0
+                        ? props.total[findProductIndex].value
+                        : 0
+                    }
                     readOnly
                   />
                   <InputGroup.Prepend>
@@ -65,6 +72,7 @@ function ProductItem(props) {
                       className="btn-count"
                       onClick={() => {
                         props.addValue(props.item.id, 1, props.item.amt)
+                        setCartChk(cartChk + 1)
                       }}
                     >
                       <FaPlus className="mr-1" />

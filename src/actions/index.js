@@ -1,12 +1,12 @@
-export const addValue = (id, qty, amt) => ({
+export const addValue = (id, value, amt) => ({
   type: 'ADD_VALUE',
   id: id,
-  qty: qty,
+  value: value,
   amt: amt,
 })
-export const minusValue = (id, qty, amt) => ({
+export const minusValue = (id, value, amt) => ({
   type: 'MINUS_VALUE',
   id: id,
-  qty: qty,
+  value: value,
   amt: amt,
 })

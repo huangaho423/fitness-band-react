@@ -6,26 +6,29 @@ const total = (state = [], action) => {
   //找尋是否以出現在購物車
   let index = state.map(v => v.id).indexOf(action.id)
   switch (action.type) {
+    //增加數量
     case 'ADD_VALUE':
       if (index >= 0) {
         state[index] = {
           id: action.id,
-          qty: state[index].qty + action.qty,
+          value: state[index].value + action.value,
           amt: action.amt,
         }
       } else {
-        state.push({ id: action.id, qty: action.qty, amt: action.amt })
+        state.push({ id: action.id, value: action.value, amt: action.amt })
       }
       return state
+    //減少數量
     case 'MINUS_VALUE':
       if (index >= 0) {
-        state[index] = {
-          id: action.id,
-          qty:
-            state[index].qty === 0
-              ? state[index].qty
-              : state[index].qty - action.qty,
-          amt: action.amt,
+        if (state[index].value - action.value >= 1) {
+          state[index] = {
+            id: action.id,
+            value: state[index].value - action.value,
+            amt: action.amt,
+          }
+        } else {
+          state.splice(index, 1)
         }
       }
       return state
