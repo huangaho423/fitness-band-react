@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fitness-band-react/precache-manifest.43f01b1b9d949c1048f67a425c07f1f2.js"
+  "/fitness-band-react/precache-manifest.c8071f008bb1c1ce9a0b696a048bfe40.js"
 );
 
 self.addEventListener('message', (event) => {
