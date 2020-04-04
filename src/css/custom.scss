@@ -1,7 +1,13 @@
 // 定義預設顏色
 $primary: #044e9e;
 $info: #1bb8a3;
+//字型
 $font-family-base: 'Roboto', 'Noto Sans TC', sans-serif;
+$font-size-base: 0.96rem;
+//按鈕樣式
+$btn-border-radius: 0.2rem;
+$btn-border-radius-sm: 0.2rem;
+$btn-border-radius-lg: 0.2rem;
 
 //bootstrap scss
 @import '~bootstrap/scss/bootstrap.scss';
@@ -73,7 +79,12 @@ section {
       max-width: 80px;
     }
     p {
-      margin: 20px 0;
+      margin: 10px 0;
+    }
+    @media (min-width: 768px) {
+      p {
+        margin: 20px 0;
+      }
     }
   }
 }
