@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fitness-band-react/static/css/main.767c6819.chunk.css",
+    "main.css": "/fitness-band-react/static/css/main.949ce53d.chunk.css",
     "main.js": "/fitness-band-react/static/js/main.e995dd55.chunk.js",
     "main.js.map": "/fitness-band-react/static/js/main.e995dd55.chunk.js.map",
     "runtime-main.js": "/fitness-band-react/static/js/runtime-main.3aba5a26.js",
@@ -8,9 +8,9 @@
     "static/js/2.c30485b4.chunk.js": "/fitness-band-react/static/js/2.c30485b4.chunk.js",
     "static/js/2.c30485b4.chunk.js.map": "/fitness-band-react/static/js/2.c30485b4.chunk.js.map",
     "index.html": "/fitness-band-react/index.html",
-    "precache-manifest.2de415e6b682e4a011c1be526593616f.js": "/fitness-band-react/precache-manifest.2de415e6b682e4a011c1be526593616f.js",
+    "precache-manifest.5226e95a3cb90c0263fc646f8ad13aa8.js": "/fitness-band-react/precache-manifest.5226e95a3cb90c0263fc646f8ad13aa8.js",
     "service-worker.js": "/fitness-band-react/service-worker.js",
-    "static/css/main.767c6819.chunk.css.map": "/fitness-band-react/static/css/main.767c6819.chunk.css.map",
+    "static/css/main.949ce53d.chunk.css.map": "/fitness-band-react/static/css/main.949ce53d.chunk.css.map",
     "static/js/2.c30485b4.chunk.js.LICENSE.txt": "/fitness-band-react/static/js/2.c30485b4.chunk.js.LICENSE.txt",
     "static/media/album01.jpg": "/fitness-band-react/static/media/album01.15b9cca2.jpg",
     "static/media/album02.jpg": "/fitness-band-react/static/media/album02.5313d0d1.jpg",
@@ -21,7 +21,7 @@
     "static/media/album08.jpg": "/fitness-band-react/static/media/album08.1b4ef93f.jpg",
     "static/media/album09.jpg": "/fitness-band-react/static/media/album09.7e548d89.jpg",
     "static/media/band-sprite.jpg": "/fitness-band-react/static/media/band-sprite.7d00ec26.jpg",
-    "static/media/index.scss": "/fitness-band-react/static/media/bg1.611a0605.jpg",
+    "static/media/index.scss": "/fitness-band-react/static/media/bg1.2638ed9a.jpg",
     "static/media/clock.png": "/fitness-band-react/static/media/clock.b6d853c5.png",
     "static/media/heartbeat.png": "/fitness-band-react/static/media/heartbeat.d2788c28.png",
     "static/media/video.mp4": "/fitness-band-react/static/media/video.a62bc994.mp4"
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.3aba5a26.js",
     "static/js/2.c30485b4.chunk.js",
-    "static/css/main.767c6819.chunk.css",
+    "static/css/main.949ce53d.chunk.css",
     "static/js/main.e995dd55.chunk.js"
   ]
 }

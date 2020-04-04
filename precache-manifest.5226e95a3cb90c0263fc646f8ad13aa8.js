@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69e4947cc724ff58b52a49fb893b7590",
+    "revision": "46646b765c0ed9de7cc2971d7f2d7c4d",
     "url": "/fitness-band-react/index.html"
   },
   {
-    "revision": "dea0ef62a8b95e057f91",
-    "url": "/fitness-band-react/static/css/main.767c6819.chunk.css"
+    "revision": "7015e505f3f9459df83a",
+    "url": "/fitness-band-react/static/css/main.949ce53d.chunk.css"
   },
   {
     "revision": "0afef791dcff833fd920",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitness-band-react/static/js/2.c30485b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dea0ef62a8b95e057f91",
+    "revision": "7015e505f3f9459df83a",
     "url": "/fitness-band-react/static/js/main.e995dd55.chunk.js"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitness-band-react/static/media/band-sprite.7d00ec26.jpg"
   },
   {
-    "revision": "611a060508144914c70362a4e514344c",
-    "url": "/fitness-band-react/static/media/bg1.611a0605.jpg"
+    "revision": "2638ed9a5aa0c1dbcab96e7c6564678c",
+    "url": "/fitness-band-react/static/media/bg1.2638ed9a.jpg"
   },
   {
     "revision": "b6d853c5f04eae781d02d550b62f5d5e",
