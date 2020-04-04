@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6d009bd2fb7d4e52a7e46ce0e82f8a2",
+    "revision": "69e4947cc724ff58b52a49fb893b7590",
     "url": "/fitness-band-react/index.html"
   },
   {
-    "revision": "3f295e2b838930890f02",
+    "revision": "dea0ef62a8b95e057f91",
     "url": "/fitness-band-react/static/css/main.767c6819.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fitness-band-react/static/js/2.c30485b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f295e2b838930890f02",
-    "url": "/fitness-band-react/static/js/main.7c526dcd.chunk.js"
+    "revision": "dea0ef62a8b95e057f91",
+    "url": "/fitness-band-react/static/js/main.e995dd55.chunk.js"
   },
   {
     "revision": "4b4d822ecf1aad04dca0",

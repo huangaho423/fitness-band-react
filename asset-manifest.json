@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/fitness-band-react/static/css/main.767c6819.chunk.css",
-    "main.js": "/fitness-band-react/static/js/main.7c526dcd.chunk.js",
-    "main.js.map": "/fitness-band-react/static/js/main.7c526dcd.chunk.js.map",
+    "main.js": "/fitness-band-react/static/js/main.e995dd55.chunk.js",
+    "main.js.map": "/fitness-band-react/static/js/main.e995dd55.chunk.js.map",
     "runtime-main.js": "/fitness-band-react/static/js/runtime-main.3aba5a26.js",
     "runtime-main.js.map": "/fitness-band-react/static/js/runtime-main.3aba5a26.js.map",
     "static/js/2.c30485b4.chunk.js": "/fitness-band-react/static/js/2.c30485b4.chunk.js",
     "static/js/2.c30485b4.chunk.js.map": "/fitness-band-react/static/js/2.c30485b4.chunk.js.map",
     "index.html": "/fitness-band-react/index.html",
-    "precache-manifest.2518e3f950fcbe46ce34d3cda67fce14.js": "/fitness-band-react/precache-manifest.2518e3f950fcbe46ce34d3cda67fce14.js",
+    "precache-manifest.2de415e6b682e4a011c1be526593616f.js": "/fitness-band-react/precache-manifest.2de415e6b682e4a011c1be526593616f.js",
     "service-worker.js": "/fitness-band-react/service-worker.js",
     "static/css/main.767c6819.chunk.css.map": "/fitness-band-react/static/css/main.767c6819.chunk.css.map",
     "static/js/2.c30485b4.chunk.js.LICENSE.txt": "/fitness-band-react/static/js/2.c30485b4.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.3aba5a26.js",
     "static/js/2.c30485b4.chunk.js",
     "static/css/main.767c6819.chunk.css",
-    "static/js/main.7c526dcd.chunk.js"
+    "static/js/main.e995dd55.chunk.js"
   ]
 }
