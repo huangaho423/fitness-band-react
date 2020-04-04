@@ -21,7 +21,7 @@ function ProductItem(props) {
   //購物車抓取Local
   const [cartData, setCartData] = useState([])
   //尋找購物車是否有該品項商品ID
-  const findProductIndex = props.total.map(v => v.id).indexOf(props.item.id)
+  const findProductIndex = props.total.map((v) => v.id).indexOf(props.item.id)
 
   const handleAddToCart = () => {
     //寫入local storage
@@ -91,7 +91,7 @@ function ProductItem(props) {
                     }
                     readOnly
                   />
-                  <InputGroup.Prepend>
+                  <InputGroup.Append>
                     <Button
                       type="button"
                       variant="outline-secondary"
@@ -112,7 +112,7 @@ function ProductItem(props) {
                     >
                       <FaPlus className="mr-1" />
                     </Button>
-                  </InputGroup.Prepend>
+                  </InputGroup.Append>
                 </InputGroup>
               </Col>
               <Col md="auto" className="mt-3 mt-md-0">
@@ -136,7 +136,7 @@ function ProductItem(props) {
 }
 
 // 告訴redux該怎麼對應它的store中的state到這個元件的props的哪裡
-const mapStateToProps = store => {
+const mapStateToProps = (store) => {
   return { total: store.total }
 }
 

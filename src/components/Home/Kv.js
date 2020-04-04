@@ -12,14 +12,14 @@ function Kv() {
             <p>觸控大螢幕 100公尺防水</p>
             <p>
               <a
-                className="btn btn-info btn-lg mr-3"
+                className="btn btn-info btn-lg mr-3 scroll-trigger"
                 href="#intro"
                 role="button"
               >
                 了解更多
               </a>
               <a
-                className="btn btn-primary btn-lg"
+                className="btn btn-primary btn-lg scroll-trigger"
                 href="#product"
                 role="button"
               >

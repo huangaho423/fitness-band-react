@@ -17,7 +17,7 @@ function Header(props) {
   //總金額
   let total = 0
 
-  const handleDelete = productId => {
+  const handleDelete = (productId) => {
     Swal.fire({
       title: '確認刪除該品項?',
       icon: 'warning',
@@ -26,9 +26,9 @@ function Header(props) {
       cancelButtonColor: '#8f8f8f',
       confirmButtonText: '確認',
       cancelButtonText: '返回',
-    }).then(result => {
+    }).then((result) => {
       if (result.value) {
-        let index = cartData.map(v => v.id).indexOf(productId)
+        let index = cartData.map((v) => v.id).indexOf(productId)
         if (index >= 0) {
           setCartUpdate(cartUpdate + 1)
           //移除元素
@@ -52,15 +52,24 @@ function Header(props) {
   }, [cartUpdate])
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="md" sticky="top">
+      <div id="home"></div>
+      <Navbar bg="dark" variant="dark" expand="md" sticky="top" className="p-3">
         <Container>
-          <Navbar.Brand href="#home">Fitness Band</Navbar.Brand>
+          <Navbar.Brand href="#home" className="scroll-trigger">
+            Fitness Band
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto align-items-center">
-              <Nav.Link href="#intro">介紹</Nav.Link>
-              <Nav.Link href="#album">圖集</Nav.Link>
-              <Nav.Link href="#spec">規格</Nav.Link>
+              <Nav.Link href="#intro" className="scroll-trigger">
+                介紹
+              </Nav.Link>
+              <Nav.Link href="#gallery" className="scroll-trigger">
+                圖集
+              </Nav.Link>
+              <Nav.Link href="#spec" className="scroll-trigger">
+                規格
+              </Nav.Link>
               <NavDropdown
                 className="cart-dropdown text-center"
                 title={
@@ -119,7 +128,7 @@ function Header(props) {
 }
 
 // 告訴redux該怎麼對應它的store中的state到這個元件的props的哪裡
-const mapStateToProps = store => {
+const mapStateToProps = (store) => {
   return { total: store.total }
 }
 

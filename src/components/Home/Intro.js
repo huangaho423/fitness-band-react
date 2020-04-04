@@ -15,7 +15,7 @@ function Intro() {
             </p>
           </div>
           <Row className="text-center">
-            <Col sm={6} md={4} className="my-3">
+            <Col sm={6} md={4} className="my-3 mx-3 mx-sm-0">
               <Card className="card-intro mx-lg-5">
                 <Card.Body>
                   <img
@@ -26,7 +26,7 @@ function Intro() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} md={4} className="my-3">
+            <Col sm={6} md={4} className="my-3 mx-3 mx-sm-0">
               <Card className="card-intro mx-lg-5">
                 <Card.Body>
                   <img
@@ -37,7 +37,7 @@ function Intro() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} md={4} className="my-3">
+            <Col sm={6} md={4} className="my-3 mx-3 mx-sm-0">
               <Card className="card-intro mx-lg-5">
                 <Card.Body>
                   <img
@@ -48,7 +48,7 @@ function Intro() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} md={4} className="my-3">
+            <Col sm={6} md={4} className="my-3 mx-3 mx-sm-0">
               <Card className="card-intro mx-lg-5">
                 <Card.Body>
                   <img
@@ -59,7 +59,7 @@ function Intro() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} md={4} className="my-3">
+            <Col sm={6} md={4} className="my-3 mx-3 mx-sm-0">
               <Card className="card-intro mx-lg-5">
                 <Card.Body>
                   <img
@@ -70,7 +70,7 @@ function Intro() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6} md={4} className="my-3">
+            <Col sm={6} md={4} className="my-3 mx-3 mx-sm-0">
               <Card className="card-intro mx-lg-5">
                 <Card.Body>
                   <img
