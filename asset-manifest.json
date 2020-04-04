@@ -1,35 +1,35 @@
 {
   "files": {
-    "main.css": "/fitness-band-react/static/css/main.ae0a945c.chunk.css",
-    "main.js": "/fitness-band-react/static/js/main.ee3189b3.chunk.js",
-    "main.js.map": "/fitness-band-react/static/js/main.ee3189b3.chunk.js.map",
+    "main.css": "/fitness-band-react/static/css/main.767c6819.chunk.css",
+    "main.js": "/fitness-band-react/static/js/main.a7336881.chunk.js",
+    "main.js.map": "/fitness-band-react/static/js/main.a7336881.chunk.js.map",
     "runtime-main.js": "/fitness-band-react/static/js/runtime-main.3aba5a26.js",
     "runtime-main.js.map": "/fitness-band-react/static/js/runtime-main.3aba5a26.js.map",
     "static/js/2.c30485b4.chunk.js": "/fitness-band-react/static/js/2.c30485b4.chunk.js",
     "static/js/2.c30485b4.chunk.js.map": "/fitness-band-react/static/js/2.c30485b4.chunk.js.map",
     "index.html": "/fitness-band-react/index.html",
-    "precache-manifest.c8071f008bb1c1ce9a0b696a048bfe40.js": "/fitness-band-react/precache-manifest.c8071f008bb1c1ce9a0b696a048bfe40.js",
+    "precache-manifest.4b34e6bfb5adf256e9fc96e9ef0f5791.js": "/fitness-band-react/precache-manifest.4b34e6bfb5adf256e9fc96e9ef0f5791.js",
     "service-worker.js": "/fitness-band-react/service-worker.js",
-    "static/css/main.ae0a945c.chunk.css.map": "/fitness-band-react/static/css/main.ae0a945c.chunk.css.map",
+    "static/css/main.767c6819.chunk.css.map": "/fitness-band-react/static/css/main.767c6819.chunk.css.map",
     "static/js/2.c30485b4.chunk.js.LICENSE.txt": "/fitness-band-react/static/js/2.c30485b4.chunk.js.LICENSE.txt",
-    "static/media/album01.jpg": "/fitness-band-react/static/media/album01.0369dc3c.jpg",
-    "static/media/album02.jpg": "/fitness-band-react/static/media/album02.245fcf40.jpg",
-    "static/media/album03.jpg": "/fitness-band-react/static/media/album03.ea33610b.jpg",
-    "static/media/album05.jpg": "/fitness-band-react/static/media/album05.0d009b96.jpg",
-    "static/media/album06.jpg": "/fitness-band-react/static/media/album06.bfb8ad23.jpg",
-    "static/media/album07.jpg": "/fitness-band-react/static/media/album07.417f9df9.jpg",
-    "static/media/album08.jpg": "/fitness-band-react/static/media/album08.51588ddc.jpg",
-    "static/media/album09.jpg": "/fitness-band-react/static/media/album09.b959de9a.jpg",
+    "static/media/album01.jpg": "/fitness-band-react/static/media/album01.15b9cca2.jpg",
+    "static/media/album02.jpg": "/fitness-band-react/static/media/album02.5313d0d1.jpg",
+    "static/media/album03.jpg": "/fitness-band-react/static/media/album03.b9104e2a.jpg",
+    "static/media/album05.jpg": "/fitness-band-react/static/media/album05.c4d25b3f.jpg",
+    "static/media/album06.jpg": "/fitness-band-react/static/media/album06.1b556dbb.jpg",
+    "static/media/album07.jpg": "/fitness-band-react/static/media/album07.8d01d2f6.jpg",
+    "static/media/album08.jpg": "/fitness-band-react/static/media/album08.1b4ef93f.jpg",
+    "static/media/album09.jpg": "/fitness-band-react/static/media/album09.7e548d89.jpg",
     "static/media/band-sprite.jpg": "/fitness-band-react/static/media/band-sprite.a8b41562.jpg",
-    "static/media/index.scss": "/fitness-band-react/static/media/bg1.fc87d415.jpg",
+    "static/media/index.scss": "/fitness-band-react/static/media/bg1.611a0605.jpg",
     "static/media/clock.png": "/fitness-band-react/static/media/clock.b6d853c5.png",
     "static/media/heartbeat.png": "/fitness-band-react/static/media/heartbeat.d2788c28.png",
-    "static/media/video.mp4": "/fitness-band-react/static/media/video.765f9090.mp4"
+    "static/media/video.mp4": "/fitness-band-react/static/media/video.a62bc994.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.3aba5a26.js",
     "static/js/2.c30485b4.chunk.js",
-    "static/css/main.ae0a945c.chunk.css",
-    "static/js/main.ee3189b3.chunk.js"
+    "static/css/main.767c6819.chunk.css",
+    "static/js/main.a7336881.chunk.js"
   ]
 }
